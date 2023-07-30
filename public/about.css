@@ -1,0 +1,130 @@
+body{
+  text-align: center;
+}
+@font-face{
+  font-family: "Satoshi-mid";
+  src:url("Satoshi-Medium.otf")
+}
+@font-face{
+  font-family: "Satoshi-reg";
+  src: url("Satoshi-Regular.otf");
+}
+@font-face{
+  font-family: "Satoshi-bol";
+  src: url("Satoshi-Bold.otf");
+}
+h1 {
+  font-family: 'Satoshi-bol';
+  font-style: normal;
+  font-size: 100px;
+  background-image: linear-gradient(45deg, #FF0F7B, #F89B29 );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 1%;
+}
+.print{
+  
+font-family: 'Satoshi-mid';
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+/* margin-top: -80px; */
+color: white;
+text-align:left;
+}
+.logo{
+    
+  height: 50%;
+  width: 50%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #191919;
+  padding: 5px 20px 20px 20px;
+  
+}
+
+/* Style the navigation links */
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 20px;
+  /* padding: 10px; */
+}
+
+.nav-links li a {
+  color: gray;
+  font-size: 30px;
+  font-family: "Satoshi-mid";
+  text-decoration: none;
+  padding: 10px;
+}
+
+.link {
+  
+  transition: background-size 300ms ease;
+  background-image: linear-gradient(45deg, #FF0F7B 0%, #F89B29 33.33%,#FF0F7B 100%);
+  background-size: 0% 3px;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+
+.link:hover {
+  /* color: #FFA8DC; */
+  transition-duration: 0.5s;
+  background-size: 100% 3px;
+}
+
+
+/* Add some content at the bottom of the video/page */
+
+
+body{
+background-color:#00071c;
+}
+.content{
+  color: white;
+  font-family: "Satoshi-reg";
+  font-size: 44px;
+  width:75%;
+  /* display: inline-block; */
+  position: relative;
+  text-align:left;
+  /* background-color: red; */
+  color: "#1E1E1E";
+  margin-top: -4%;
+}
+
+.qans{margin-left: 5%}
+
+.img1{
+  border-radius: 10%;
+  position: absolute;
+  top:400px;
+  right:100px;
+}
+
+.img3{
+  border-radius: 10%;
+  position: absolute;
+  bottom: -1300px;
+  right: 100px;
+}
+
+.img2{
+  border-radius: 10%;
+  position: absolute;
+  top:1200px;
+  right:100px;
+  width: 18%;
+  height: 20%;
+}
